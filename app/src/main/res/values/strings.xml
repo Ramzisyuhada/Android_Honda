@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Honda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>\
+    <string name="Header">Scane Spare Part</string>
+    <string name="SpareHeader">Spare Part Name</string>
+    <string name="SpareHeaderType">Spare Part Type</string>
+    <string name="SuplierHeaderType">Supplier PIC</string>
+
+</resources>
