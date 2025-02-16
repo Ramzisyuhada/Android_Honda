@@ -5,6 +5,6 @@
     <string name="Header">Scane Spare Part</string>
     <string name="SpareHeader">Spare Part Name</string>
     <string name="SpareHeaderType">Spare Part Type</string>
-    <string name="SuplierHeaderType">Supplier PIC</string>
+    <string name="SuplierHeaderType">Output : </string>
 
 </resources>
