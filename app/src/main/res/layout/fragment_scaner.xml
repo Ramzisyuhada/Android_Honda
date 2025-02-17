@@ -42,39 +42,53 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
+
             <ListView
                 android:id="@+id/list_item"
-                tools:listitem="@layout/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:divider="@android:color/transparent"
-                android:dividerHeight="10.0sp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/SuplierHeaderType"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:textAlignment="center"
-                android:textColor="@color/ColorIcon"/>
+                android:dividerHeight="30.0sp"
+                tools:listitem="@layout/list_item" />
 
 
         </LinearLayout>
-        <Button
-            android:id="@+id/buttonCamera"
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Buka Kamera"
-            android:layout_marginTop="20dp"/>
-        <Button
-            android:id="@+id/Deteksi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Scan"
-            android:layout_marginTop="20dp"/>
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonCamera"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Buka Kamera"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_background"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Deteksi"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Preview"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_background_review"
+
+                />
+
+        </LinearLayout>
+
 
 
     </LinearLayout>
